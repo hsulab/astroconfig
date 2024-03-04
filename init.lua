@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  colorscheme = "catppuccin",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -81,5 +81,13 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+    -- Set autocommands
+    -- TODO: Test
+    vim.api.nvim_create_autocmd("VimEnter", {
+      command = "set nornu nonu | Neotree toggle",
+    })
+    vim.api.nvim_create_autocmd("BufEnter", {
+      command = "set rnu nu",
+    })
   end,
 }
