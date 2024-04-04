@@ -8,6 +8,6 @@ return {
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.completion.cmp-cmdline" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
-  { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.pack.yaml" },
+  -- { import = "astrocommunity.pack.python" },
+  -- { import = "astrocommunity.pack.yaml" },
 }
