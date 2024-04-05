@@ -6,6 +6,7 @@ return {
 
   { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.utility.noice-nvim" },
+  -- { import = "astrocommunity.motion.hop-nvim" },
   { import = "astrocommunity.completion.cmp-cmdline" },
   -- { import = "astrocommunity.bars-and-lines.feline-nvim"}
   -- { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
